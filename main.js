@@ -1,6 +1,7 @@
-function add(num1,num2){
-  const value = num1 + num2;
-  return value;
+
+function square(numbers){
+  for (let i =1; i <= 5; i++){
+    console.log(i**2)
+  }
 }
-console.log(value);
-const returnedValue = add(2, 3);
+square([1, 2, 3, 4, 5])
