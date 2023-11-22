@@ -1,7 +1,9 @@
+let personTaro = {name : '山田太郎'};
+let personJiro = {name : '山田次郎'};
 
-function square(numbers){
-  for (let i =1; i <= 5; i++){
-    console.log(i**2)
-  }
+function printBooks(books) {
+  console.log('『JavaScript入門』' + personTaro.name);
+  console.log('『JavaScriptの絵本』' + personJiro.name);
 }
-square([1, 2, 3, 4, 5])
+
+printBooks(personTaro,personJiro)
