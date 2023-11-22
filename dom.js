@@ -1,3 +1,3 @@
 let result = document.documentElement;
-document.childNodes;
+result = document.childNodes;
 console.dir(result);
