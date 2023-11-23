@@ -1,9 +1,3 @@
-let personTaro = {name : '山田太郎'};
-let personJiro = {name : '山田次郎'};
+const todoInput = document.querySelector('todo-input');
+const addTask = document.querySelector('add-button');
 
-function printBooks(books) {
-  console.log('『JavaScript入門』' + personTaro.name);
-  console.log('『JavaScriptの絵本』' + personJiro.name);
-}
-
-printBooks(personTaro,personJiro)
